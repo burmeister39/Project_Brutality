@@ -50,8 +50,9 @@ actor NamiDarkImp Replaces DoomImp
 	+SLIDESONWALLS
 	PainChance "Trample", 255
 	Species Imp
-    Obituary "%o was cursed by a dark imp."
-    HitObituary "%o was touched by a dark imp."
+	Tag "Nami Imp"
+    Obituary "%o was cursed by a Nami Imp."
+    HitObituary "%o was touched by a Nami Imp."
     MissileType DarkSeeker
     MeleeDamage 3
 	MeleeRange 64
