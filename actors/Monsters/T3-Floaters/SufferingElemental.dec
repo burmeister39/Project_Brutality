@@ -29,6 +29,7 @@ ACTOR SufferingElemental replaces PainElemental
 	damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood", 0.0
 	damagefactor "killme", 0.0
     damagetype Flames
+   Tag "Suffering Elemental"
    Obituary "%o was killed by a Suffering Elemental."
     BloodType "Green_Blood", "GreenSawBlood", "GreenSawBlood"
    DropItem "Demonpickup" 168
