@@ -61,6 +61,8 @@ ACTOR RiotShieldDrop
 ACTOR RiotShieldGuy : ShotgunGuy1 Replaces ShotgunGuy
 {
 	SpawnID 1220
+	Tag "Riot Shield Zombie"
+	Obituary "%o was shoted by a Riot Shield Zombie"
 	DropItem "DropedGrenade" 4
 	DropItem "PistolDrop"
 	DropItem "RiotShieldDrop"
@@ -1396,6 +1398,8 @@ Actor PyroSergeant: ShotgunGuy2 replaces ShotgunGuy
 {
 	SpawnID 1250
 	Scale 1.04
+	Tag "Pyro Sergeant"
+  	Obituary "%o was burned by a Pyro Sergeant"
 	DropItem "FlameCannon"
 	PainChance "Fire", 12
 	PainChance "Flames", 12
