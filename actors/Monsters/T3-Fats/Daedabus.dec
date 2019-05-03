@@ -39,6 +39,7 @@ Actor Daedabus replaces Fatso
    +FLOORCLIP
    +BossDeath
    +DONTHURTSPECIES
+   Tag "Daedabus"
    Obituary "%o was acidified by a Daedabus."
    
     DropItem "Demonpickup2" 80
