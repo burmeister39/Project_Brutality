@@ -40,6 +40,7 @@ Actor Volcabus : Fatso replaces Fatso
 	+FLOORCLIP
 	+BossDeath
 	+DONTHURTSPECIES
+	Tag "Volcabus"
 	Obituary "%o was forced into submission by a Volcabus."
    
    States
