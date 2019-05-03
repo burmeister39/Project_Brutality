@@ -60,6 +60,7 @@ ACTOR EvilMarine //Replaces WolfensteinSS
 	PainSound "evilmarinepain"
 	DeathSound "evilmarinedeath"
 	ActiveSound "evilmarineactive"
+	Tag "Evil Marine"
 	Obituary "%o was eliminated by an evil marine."
 	DropItem "NewClip"
 	Translation "112:127=[64,64,64]:[0,0,0]"
@@ -604,6 +605,8 @@ Actor EasyMarine: EvilMarine
 Health 80
 Speed 5
 FastSpeed 5
+Tag "Evil Marine"
+Obituary "%o was eliminated by an evil marine."
 DropItem "RifleDrop"
 MaxStepHeight 42
 MaxDropOffHeight 42
