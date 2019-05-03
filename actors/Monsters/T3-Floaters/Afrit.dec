@@ -23,6 +23,7 @@ Actor Afrit replaces Cacodemon
   +DontHurtSpecies
   -MissileEvenMore
   +NEVERFAST
+  Tag "Afrit"
   Obituary "%o was scorched by an Afrit"
   HitObituary "%o found the Afrit too hot to handle."
   Damagefactor "HellFire", 0.0
