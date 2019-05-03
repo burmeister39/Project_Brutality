@@ -34,6 +34,7 @@ ACTOR Annihilator: Cyberdemon Replaces Cyberdemon
     +DONTRIP
    // +NORADIUSDMG
 	Speed 8
+	Tag "Annihilator"
 	Obituary "%o was destroyed by an Annihilator"
 	FastSpeed 12
 	mass 5000
