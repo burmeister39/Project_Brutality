@@ -47,7 +47,8 @@ ACTOR Labguy replaces ZombieMan //10828
 	damagefactor "ExplosiveImpact", 0.6
 	DropItem "GrenadeAmmo" 6
 	DamageFactor "CauseObjectsToSplash", 0.0
-	Obituary "%o has been cut down by a zombie labworker."
+	Tag "Labworker Zombie"
+	Obituary "%o has been cut down by a labworker zombie."
 	damagefactor "Taunt", 1.0
 	States
 	{
