@@ -1,6 +1,7 @@
 ACTOR BeamRevenant : Revenant1 Replaces Revenant
 {
 	SpawnID 2110
+  Tag "Beam Revenant"
   HitObituary "%o was punched by a Beam Revenant."
   Obituary "%o was caught in a Beam Revenant's crosshairs."
  // +DONTHARMSPECIES
