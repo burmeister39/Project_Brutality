@@ -6,7 +6,8 @@ Actor ChaingunMajor : ChaingunGuy1 Replaces ChaingunGuy
   Speed 7
   Mass 300
   SpawnID 1330
-  Obituary "%o was perforated by a heavy weapons major."
+  Tag "HMG Major"
+  Obituary "%o was perforated by a HMG Major."
   Decal Bulletchip
   Dropitem "DropedHMG", 256
   States
