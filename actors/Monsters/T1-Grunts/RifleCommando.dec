@@ -20,7 +20,8 @@ ACTOR RifleCommando : ChaingunGuy1 Replaces ChaingunGuy
    Damagefactor "Taunt", 0.01
    DropItem "NewClip"
  //  DropItem "LMG"
-   Obituary "%o was assaulted by a commando." 
+   Tag "Rifle Commando"
+   Obituary "%o was assaulted by a Rifle Commando." 
    States 
    { 
    
