@@ -18,6 +18,7 @@ Actor DemonX : Demon Replaces Demon
 	//+LongMeleeRange
 	+DontHurtSpecies
     damagefactor "Crush", 10.0
+    	Tag "Mean Demon"
 	Obituary "%o was mauled by a Ugly Mean Demon."
 	SeeSound "Monster/sg2sit"
 	DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
