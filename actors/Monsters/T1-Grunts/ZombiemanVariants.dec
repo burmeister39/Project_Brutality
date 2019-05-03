@@ -1,6 +1,8 @@
 ACTOR PistolZombieman: Zombie_Man Replaces ZombieMan
 {
 	SpawnID 1120
+	Tag "Pistol Zombie"
+ 	Obituary "%o was shoted by a Pistol Zombie"
 	DropItem "PistolDrop"
 	States
 	{
@@ -781,6 +783,8 @@ States
 ACTOR PistolZombieman2: Zombie_Man Replaces ZombieMan
 {
 	SpawnID 1130
+	Tag "Pistol Zombie"
+   	Obituary "%o was shoted by a Pistol Zombie"
 	DropItem "PistolDrop"
 	PainChance "Kick", 255
 	PainChance "SuperKick", 255
@@ -1948,6 +1952,8 @@ ACTOR PistolZombieman2: Zombie_Man Replaces ZombieMan
 ACTOR HelmetZombieMan: PistolZombieman2 Replaces ZombieMan
 {
 	SpawnID 1110
+	Tag "Helmet Pistol Zombie"
+  	Obituary "%o was shoted by a Helmet Pistol Zombie"
 	DropItem "DropedRifle"
 	DropItem "DropedGrenade" 5
 	DropItem "PistolDrop"
@@ -2925,6 +2931,8 @@ ACTOR ZombieMarineDude: Zombie_Man Replaces ZombieMan
 	Scale 1.0
 	Radius 16
 	Height 46
+	Tag "Marine Zombie"
+	Obituary "%o was shoted by a Marine Zombie"
 	DropItem "CarbineDrop" 64
     States
     {
