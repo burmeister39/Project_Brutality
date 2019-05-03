@@ -34,9 +34,9 @@ ACTOR CyberPaladin replaces Hellknight
 	damagefactor "TeleportRemover", 0.0
 	damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood", 0.0
     BloodType "Brutal_Blood", "BloodSPlatterReplacer", "SawBlood"
-	
-	Obituary "%o played dodgeball with a paladin and lost."
-	HitObituary "A Paladin blew %o away."
+	Tag "Cyber Paladin"
+	Obituary "%o played dodgeball with a cyber paladin and lost."
+	HitObituary "A Cyber Paladin blew %o away."
 	
 	SeeSound "Paladin/Sight" 
 	PainSound "Paladin/Pain" 
