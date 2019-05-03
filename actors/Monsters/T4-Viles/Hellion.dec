@@ -5,6 +5,7 @@ inventory.maxamount 1
 
 Actor Hellion Replaces Archvile
 {
+  Tag "Hellion"
   Obituary "A Hellion burned %o to a crisp."
   Health 900
   SpawnID 2330
