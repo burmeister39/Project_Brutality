@@ -31,6 +31,7 @@ ACTOR MagCaco : PainElemental replaces Cacodemon
 	PainSound "monster/infpai"
 	DeathSound "monster/infact"
 	ActiveSound ""
+	Tag "Infernal Cacodemon"
 	Obituary "%o was deep fried by an Infernal Cacodemon."
 	DropItem "DemonStrengthRune" 5
 	DropItem "DemonStrengthRune" 3
