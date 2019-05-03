@@ -16,7 +16,8 @@ ACTOR ASGGuy : ShotgunGuy1 Replaces ShotgunGuy
     PainSound "grunt/pain"
     DeathSound "grunt/death"
     ActiveSound "grunt/active"
-    Obituary "%o got SPLATTERED by an autoshotgun guy."
+    Tag "Auto Shotgun Zombie"
+    Obituary "%o got SPLATTERED by an auto shotgun zombie."
 	DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
 	damagefactor "killme", 0.0
 	dAMAGEFACTOR "Avoid", 0.0
