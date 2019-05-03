@@ -30,6 +30,7 @@ DamageFactor "Fatality", 5.0
   ActiveSound "demon/active"
   BloodColor "none"
   BloodType "LostSoulBlood"
+  Tag "Phantasm"
   Obituary "%o was smoked by a Phantasm."
   DropItem "Demonpickup" 15
   
