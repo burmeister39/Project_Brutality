@@ -49,8 +49,9 @@ actor STDarkImp Replaces DoomImp
 	+SLIDESONWALLS
 	PainChance "Trample", 255
 	Species Imp
-    Obituary "%o was cursed by a dark imp."
-    HitObituary "%o was touched by a dark imp."
+	Tag "Dark Imp"
+    Obituary "%o was cursed by a Dark Imp."
+    HitObituary "%o was touched by a Dark Imp."
     MissileType DarkFast
     MeleeDamage 3
 	MeleeRange 64
