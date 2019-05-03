@@ -11,7 +11,8 @@ ACTOR ArachnotronX: Arachnotron replaces Arachnotron
 	Species "Arachnotron"
 	+DONTHARMCLASS
 	+DONTHURTSPECIES
-	Obituary "%o was incinerated by an Arachnotron."
+	Tag "Infernal Arachnotron"
+	Obituary "%o was incinerated by an Infernal Arachnotron."
 	DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
 	DropItem "DemonStrengthRune" 8
 	DropItem "DemonMorphRune" 1
