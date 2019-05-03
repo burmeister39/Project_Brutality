@@ -25,6 +25,7 @@ ACTOR LordBelphegor : BaronofHell replaces BaronofHell
 	DropItem "Demonpickup2" 76
 	DropItem "Demonpickup2" 76
 	DropItem "Demonpickup2" 76
+	Tag "Lord Belphegor"
 	Obituary "%o was no match for the great Belphegor."
 	MaxStepHeight 24
 	MaxDropOffHeight 32
