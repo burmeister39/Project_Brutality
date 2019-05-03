@@ -18,7 +18,8 @@ ACTOR ARZombieMan: Zombie_Man Replaces ZombieMan
 	PainSound "grunt/pain"
 	DeathSound "grunt/death"
 	ActiveSound "grunt/active"
-	Obituary "%o was perforated by an Assault Gunner."
+	Tag "Carbine Rifle Zombie"
+	Obituary "%o was perforated by an Carbine Rifle Zombie."
 	DropItem "DropedCarbine"
 	DropItem "DropedGrenade" 15
 	Damagefactor "ExtremePunches", 1.25
