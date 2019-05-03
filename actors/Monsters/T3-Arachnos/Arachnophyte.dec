@@ -24,6 +24,7 @@ actor Arachnophyte replaces Arachnotron
     PainSound "arachnophyte/pain"
     DeathSound "arachnophyte/death"
     AttackSound "spider/attack"
+    Tag "Arachnophyte"
     Obituary "%o was perforated by an Arachnophyte."
 	DamageFactor "Crush", 10.0
 	DamageFactor "Avoid", 0.0
