@@ -30,6 +30,7 @@ ACTOR TriteElemental replaces PainElemental
 	DropItem "DoubleSphere" 5
 	DropItem "ShieldSphere" 4
     damagetype Flames
+    Tag "Trite Elemental"
    Obituary "%o was nested by a Trite Elemental."
     BloodType "Green_Blood", "GreenSawBlood", "GreenSawBlood"
    DropItem "Demonpickup" 148
