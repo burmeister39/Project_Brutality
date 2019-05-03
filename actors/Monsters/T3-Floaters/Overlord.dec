@@ -26,6 +26,7 @@ DropItem "DemonStrengthRune" 25
 	DropItem "DoubleSphere" 15
 	DropItem "ShieldSphere" 13
 	DropItem "TimeSphere" 13
+Tag "The Overlord"
 Obituary "%o was smoked by the Overlord."
 HitObituary "The Overlord ate %o for lunch."
 +FLOORCLIP
