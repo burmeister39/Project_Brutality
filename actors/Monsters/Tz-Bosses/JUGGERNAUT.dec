@@ -46,6 +46,7 @@ ACTOR Juggernaut : Fatso Replaces SpiderMastermind
     DamageFactor "Shrapnel", 0.9
 	DamageFactor "Cutless", 1.1
 	DamageFactor "Explosive", 1.5
+	Tag "Juggernaut"
 	Obituary "%o was destroyed by the Juggernaut"
 	MaxStepHeight 24
 	MaxDropOffHeight 32
