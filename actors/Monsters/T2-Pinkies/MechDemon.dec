@@ -16,6 +16,8 @@ ACTOR MechDemon: Demon Replaces Demon
     Speed 12
     FastSpeed 13 //yes, his fast speed is slower because it would make him sanic fast if it was default. NO IT'S NOT.
 	SpawnID 1530
+	Tag "Mecha Demon"
+	Obituary "%o was mauled by a Mecha Demon."
 	PainChance "Saw", 200
 	PainChance "Cut", 200
 	PainChance "Kick", 255
