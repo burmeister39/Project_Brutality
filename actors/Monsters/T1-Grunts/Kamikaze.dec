@@ -1,5 +1,6 @@
 actor SuicideBomber //22099
 {
+  Tag "Suicide Bomber"
   obituary "%o was killed by a crazy suicide bomber."
   health 70
   radius 20
