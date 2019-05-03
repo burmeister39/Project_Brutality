@@ -22,6 +22,7 @@ PainSound "monster/watpai"
 DeathSound "monster/watdth" 
 ActiveSound "monster/watact" 
 AttackSound "caco/melee"
+Tag "Watcher"
 Obituary "%o was fried by a watcher."
 HitObituary "Looks like a watcher thought %o was tasty."
 DropItem "DemonStrengthRune" 2
