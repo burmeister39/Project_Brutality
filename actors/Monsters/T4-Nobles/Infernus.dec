@@ -10,6 +10,7 @@ Actor Infernus : BaronofHell2 replaces BaronOfHell
   PainSound "superbaron/pain"
   DeathSound "superbaron/death"
   ActiveSound "superbaron/act"
+  Tag "Infernus"
   Obituary "%o was slaughtered by an Infernus"
   HitObituary "%o was cremated by an Infernus"
 	DropItem "DemonMorphRune" 5
