@@ -1,5 +1,6 @@
 Actor Trite
 {
+  Tag "Trite"
   HitObituary "%o was nipped by a Trite"
   Health 15
   Radius 19
