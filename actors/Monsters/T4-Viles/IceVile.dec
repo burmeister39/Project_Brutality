@@ -43,6 +43,7 @@ ACTOR ICEVILE Replaces Archvile
 	DeathSound "icevile/death"
 	ActiveSound "icevile/active"
 	MeleeSound "icevile/pain"
+	Tag "Ice-Vile"
 	Obituary "%o was iced by an Ice-Vile."
 	PainChance "Stun", 255
 	PainChance "Siphon", 255
