@@ -35,6 +35,7 @@ Actor ZSpecOpsMachinegun : QuadShotgunZombie Replaces ShotgunGuy
 	DamageFactor "MinorHead", 2.0
 	DamageFactor "Head", 2.0
 	DamageFactor "taunt", 0.0
+	Tag "ZSpecOps"
 	Obituary "%o was gunned down by a ZSpecOps"
   
 	DamageFactor "Fatality", 0.5
