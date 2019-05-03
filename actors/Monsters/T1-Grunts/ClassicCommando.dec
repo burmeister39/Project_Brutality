@@ -43,6 +43,7 @@ ACTOR ChaingunGuy2: ChaingunGuy1 Replaces ChaingunGuy
 	PainSound "commando/pain"
 	DeathSound "commando/death"
 	ActiveSound "commando/active"
+	Tag "Commando"
 	Obituary "%o has been chopped down by a Commando"
 	States
 	{
