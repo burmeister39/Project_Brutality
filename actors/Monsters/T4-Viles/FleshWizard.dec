@@ -2,6 +2,7 @@ actor FleshWizard Replaces Archvile
 {
 SpawnID 2320
 Scale 1.02
+Tag "Flesh Wizard"
 obituary "%o was raped by a Flesh Wizard."
 health 925
 radius 18
