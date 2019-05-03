@@ -11,6 +11,8 @@ ACTOR IceImp: DoomImp
 	health 100
 	Radius 18
 	Height 48
+	Tag "Ice Imp"
+	Obituary "%o got imped."
 	Mass 100
     GibHealth 35
 	PainChance 200
