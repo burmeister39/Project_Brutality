@@ -18,6 +18,8 @@ ACTOR SavageImp: DoomImp Replaces DoomImp
     Speed 14
 	FastSpeed 15
 	SpawnID 1450
+	Tag "Savage Imp"
+   	Obituary "%o got imped."
 	PainChance 200
 	PainChance "Siphon", 255
 	PainChance "Stun", 255
