@@ -93,6 +93,7 @@ ACTOR VoidSpectre: BullDemon Replaces Spectre
 	MaxStepHeight 48
 	MaxDropOffHeight 48
 	DropItem "NewBlurSphere" 3
+	Tag "Void Spectre"
 	Obituary "%o was devoured by a Void Spectre."
 	DropItem "Demonpickup" 100
 	+NOBLOODDECALS
