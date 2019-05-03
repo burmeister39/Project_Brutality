@@ -43,7 +43,8 @@ ACTOR ChaingunGuy3: ChaingunGuy Replaces ChaingunGuy
     damagefactor "Shrapnel", 0.4
 	damagefactor "explosiveimpact", 2.0
 	DropItem "None" 3
-	Obituary "%o has been mowed down by a Zombie Commando."
+	Tag "Helmet Commando"
+	Obituary "%o has been mowed down by a Helmet Commando."
 	DamageFactor "CauseObjectsToSplash", 0.0
 	
 	
