@@ -91,6 +91,7 @@ ACTOR HellTrooper Replaces ShotgunGuy
 	damagefactor "Head", 2.0
 	damagefactor "Shrapnel", 0.4
 	damagefactor "ExplosiveImpact", 2.0
+	Tag "Demon Tech Trooper"
 	Obituary "%o was silenced by a demon tech trooper."
 	damagefactor "Taunt", 1.0
 	DropItem "DemonMorphRune" 3
