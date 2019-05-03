@@ -2,6 +2,7 @@
 
 ACTOR Cyberbaron replaces BaronofHell
 {
+  Tag "Cyber Baron"
   obituary "%o was shock-and-awed by a cyber baron"
   hitobituary "%o was ripped to shreds by a cyber baron"
   health 1250
