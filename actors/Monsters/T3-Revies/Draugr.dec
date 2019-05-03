@@ -2,6 +2,7 @@ ACTOR Draugr : Revenant1 Replaces Revenant
 {
 	Health 550
 	SpawnID 2120
+  Tag "Draugr"
   HitObituary "%o was knocked out by a Draugr."
   Obituary "%o was eviscerated by a Draugr"
  // +DONTHARMSPECIES
