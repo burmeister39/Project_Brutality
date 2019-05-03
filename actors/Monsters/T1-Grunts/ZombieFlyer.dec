@@ -226,6 +226,7 @@ actor ZombieFlyer
     PainSound "grunt/pain"
     DeathSound "grunt/death"
     ActiveSound "grunt/active"
+    Tag "Zombie Flyer"
     Obituary "%o was shredded by a patroling Flying Zombie."
 	Species "ZombieFlyer"
 	PainChance "Stun", 255
