@@ -26,6 +26,7 @@ ACTOR EldritchAbomination : BossBrainBase
 	+FLOATBOB
 	
 	DeathSound "cyber/death"
+	Tag "Abomination"
 	Obituary "%o was wiped out by an eldritch abomination"
 	BLoodType "DeadBlood"
 	DamageFactor "Desintegrate", 1.0
