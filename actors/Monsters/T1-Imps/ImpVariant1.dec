@@ -6,6 +6,7 @@ Actor DNImpVariant1 : Imp Replaces DoomImp
 	Speed 9
 	SpawnID 1430
 	Tag "Vicious Imp"
+	Obituary "%o got imped."
 	DropItem Imp2DropSpawner	
 	States
 	{
