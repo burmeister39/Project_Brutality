@@ -1,5 +1,7 @@
 ACTOR RocketZombie: ShotgunGuy1 Replaces ShotgunGuy
 {
+    	Tag "Rocket Zombie"
+   	Obituary "%o was splattered by a Rocket Zombie"
 	DropItem "RocketAmmo"
 	SpawnID 1260
 	+NOTARGET
