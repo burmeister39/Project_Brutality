@@ -12,7 +12,8 @@ ACTOR Arachnotron2: Arachnotron replaces Arachnotron
 	+DONTHURTSPECIES
 	+MISSILEMORE
 	Species "Arachnotron"
-	Obituary "%o was  by an Arachnotron."
+	Tag "Elite Arachnotron"
+	Obituary "%o was  by an Elite Arachnotron."
 	DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
 	DropItem "DemonStrengthRune" 8
 	DropItem "DemonMorphRune" 2
